@@ -3,7 +3,7 @@ import { useAuthStore } from '../store/authStore.js';
 
 // const baseURL = import.meta.env.VITE_API_URL || 'https://whatsapp-automation-backend-8zgs.onrender.com/api/';
 
-const baseURL = 'http://localhost:5000/api/';
+const baseURL = 'https://real-estate-backend-n7h1.onrender.com/api/';
 
 export const api = axios.create({
   baseURL,
