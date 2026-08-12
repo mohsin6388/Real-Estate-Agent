@@ -1,7 +1,7 @@
 import { io } from 'socket.io-client';
 import { useAuthStore } from '../store/authStore.js';
 
-const SOCKET_URL = (import.meta.env.VITE_API_URL || 'http://localhost:5000/api/v1').replace(/\/api\/v1\/?$/, '');
+const SOCKET_URL = 'https://real-estate-backend-n7h1.onrender.com/api'
 
 let socket = null;
 
